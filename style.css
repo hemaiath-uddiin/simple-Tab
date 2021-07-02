@@ -1,0 +1,83 @@
+  
+/*
+=============== 
+Fonts Roboto", sans-serif;
+===============
+*/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+.title {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+article.about-img img {
+    width: 600px;
+    /* height: 433px; */
+    object-fit: cover;
+}
+
+
+
+.about-center.section-center {
+    display: flex;
+}
+
+article.about {
+    background: #cde2e0;
+}
+section.section {
+    width: 1170px;
+    margin: auto; 
+   font-family: "  Fonts Roboto, sans-serif"  ;
+}
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+button.tab-btn {
+    padding: 8px 15px;
+    margin: 10PX; 
+  
+}
+
+.about-content {
+    padding: 3px 15px;
+}
+
+
+
+.content {
+    display: none;
+  }
+  .tab-btn.active {
+    background: #fff
+  }
+  .content.active {
+    display: block;
+  } 
+
+  @media only screen and (max-width: 800px) {
+    .section-center{ 
+         display: flex;
+        flex-direction: column; 
+        width: 600px;  
+     
+
+    } 
+
+
+     .title{ 
+       width: 600px;
+     }
+    .about-img img{ 
+     
+        width: 100%;
+        height: auto;
+
+ }
+  }  
+
+  button.tab-btn:hover {border-radius: 10px;transition: 0.3s all;}
